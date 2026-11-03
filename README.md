@@ -50,4 +50,11 @@ python scripts/check-site.py
 
 ## 發布狀態
 
-本機版本已建立，公開網址將於實際部署確認後補入。
+GitHub Pages 已發布，並完成公開網站的桌面與手機瀏覽器驗收。
+
+- [公開網站](https://shokola1130.github.io/xuantian-archive/)
+- [GitHub Repository](https://github.com/Shokola1130/xuantian-archive)
+- [AGENTS.md 全文](https://github.com/Shokola1130/xuantian-archive/blob/main/AGENTS.md)
+- [法寶圖鑑擴充示範](https://shokola1130.github.io/xuantian-archive/pages/artifacts.html)
+
+完整實測項目與驗證限制見 CHANGELOG.md。網站檔案與公開專案均不含學生的個人繳交資料。
