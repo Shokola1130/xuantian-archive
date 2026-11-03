@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>修仙世界百科｜玄天藏經閣</title>
+  <meta name="description" content="玄天藏經閣是一個原創虛構仙俠百科，從靈根、宗門到修煉境界，以典籍串起玄天世界。">
+  <meta name="theme-color" content="#0b1918">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/catalog.js" defer></script>
+  <script src="assets/site.js" defer></script>
+</head>
+<body id="top" data-page="home">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="玄天藏經閣首頁">
+        <span class="brand-seal" aria-hidden="true">玄</span>
+        <span><span class="brand-name">玄天藏經閣</span><span class="brand-caption">The Xuantian Archive</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">目錄 ☰</button>
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <a href="index.html" aria-current="page">藏經閣</a>
+        <a href="pages/spirit-roots.html">靈根</a>
+        <a href="pages/sects.html">宗門</a>
+        <a href="pages/cultivation.html">境界</a>
+        <a href="pages/artifacts.html">法寶</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow">玄天世界 · 原創仙俠百科</div>
+        <h1 id="hero-title">入閣觀萬象，<br><span>一卷識仙途。</span></h1>
+        <p>山海有界，求知無涯。從一縷靈氣到萬千道途，<br>在這座雲上書閣，讀懂屬於玄天的修仙世界。</p>
+        <div class="hero-actions"><a class="button" href="#catalog">探訪藏經 <span aria-hidden="true">↓</span></a><a class="text-link" href="#reading-path">初入仙途，從這裡開始 ↗</a></div>
+      </div>
+      <figure class="hero-art"><img src="assets/landscape.svg" width="620" height="520" alt="金色圓月下，玄天藏經閣矗立在青山雲海之間"><span class="hero-stamp" aria-hidden="true">山海藏卷 · 靜候知音</span><figcaption>一山一閣，一卷一世界</figcaption></figure>
+    </section>
+    <div class="archive-strip" aria-label="典籍概要"><span class="strip-title">萬卷皆有源，道途自此開</span><p><strong id="category-total">04</strong>知識分類</p><p><strong>08</strong>靈根設定</p><p><strong>06</strong>宗門傳承</p></div>
+    <section id="catalog" class="section" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><span class="section-label">Explore the archive / 藏經目錄</span><h2 id="catalog-title">擇一卷，入此山海</h2></div><p>以分類探路，以關鍵字尋卷。</p></div>
+      <div id="search-tools" hidden>
+        <div class="search-box"><svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><label for="archive-search">尋找典籍</label><input id="archive-search" type="search" placeholder="輸入靈根、雷宗、境界…" autocomplete="off"><button id="clear-search" class="clear-search" type="button">清除</button></div>
+        <div class="filter-row"><div class="filters" role="group" aria-label="典籍分類"><button type="button" class="filter-button" data-filter="all" aria-pressed="true">全部典籍</button><button type="button" class="filter-button" data-filter="roots" aria-pressed="false">靈根</button><button type="button" class="filter-button" data-filter="sects" aria-pressed="false">宗門</button><button type="button" class="filter-button" data-filter="realms" aria-pressed="false">境界</button><button type="button" class="filter-button" data-filter="artifacts" aria-pressed="false">法寶</button><button type="button" class="filter-button" data-filter="saved" aria-pressed="false">我的收藏</button></div><p id="result-count" class="result-count" aria-live="polite">共 4 卷典籍</p></div>
+      </div>
+      <noscript><p class="noscript-note">下方可直接閱讀全部典籍。啟用 JavaScript 後可使用搜尋、分類與本機收藏。</p></noscript>
+      <div id="catalog-grid" class="catalog-grid">
+        <article class="catalog-card" data-id="spirit-roots" data-category="roots">
+          <div class="card-top"><span class="card-volume">卷 一 · 天賦與五行</span><button class="save-button" type="button" aria-label="收藏靈根系統" aria-pressed="false" hidden>收藏 ＋</button></div>
+          <span class="card-symbol" aria-hidden="true">靈</span>
+          <h3><a href="pages/spirit-roots.html">靈根系統</a></h3>
+          <p>五行為基，異靈為變。認識八種靈根的特性、修行方向與相生之理。</p>
+          <div class="card-bottom"><span class="card-tag">天賦與五行</span><a class="card-read" href="pages/spirit-roots.html" aria-label="閱讀靈根系統">展卷閱讀 ↗</a></div>
+        </article>
+        <article class="catalog-card" data-id="sects" data-category="sects">
+          <div class="card-top"><span class="card-volume">卷 二 · 傳承與山門</span><button class="save-button" type="button" aria-label="收藏六大宗門" aria-pressed="false" hidden>收藏 ＋</button></div>
+          <span class="card-symbol" aria-hidden="true">宗</span>
+          <h3><a href="pages/sects.html">六大宗門</a></h3>
+          <p>山海之間，各有傳承。走訪六大宗門，尋找與自己志向相合的修行之所。</p>
+          <div class="card-bottom"><span class="card-tag">傳承與山門</span><a class="card-read" href="pages/sects.html" aria-label="閱讀六大宗門">展卷閱讀 ↗</a></div>
+        </article>
+        <article class="catalog-card" data-id="cultivation" data-category="realms">
+          <div class="card-top"><span class="card-volume">卷 三 · 道途與進階</span><button class="save-button" type="button" aria-label="收藏修煉境界" aria-pressed="false" hidden>收藏 ＋</button></div>
+          <span class="card-symbol" aria-hidden="true">境</span>
+          <h3><a href="pages/cultivation.html">修煉境界</a></h3>
+          <p>自引氣而問虛，六境各有門檻。循著清楚的進階路徑，讀懂玄天修行體系。</p>
+          <div class="card-bottom"><span class="card-tag">道途與進階</span><a class="card-read" href="pages/cultivation.html" aria-label="閱讀修煉境界">展卷閱讀 ↗</a></div>
+        </article>
+        <article class="catalog-card" data-id="artifacts" data-category="artifacts">
+          <div class="card-top"><span class="card-volume">卷 四 · 器物與共鳴</span><button class="save-button" type="button" aria-label="收藏法寶圖鑑" aria-pressed="false" hidden>收藏 ＋</button></div>
+          <span class="card-symbol" aria-hidden="true">器</span>
+          <h3><a href="pages/artifacts.html">法寶圖鑑</a></h3>
+          <p>器有所長，亦有所限。翻閱四件原創法寶，了解品階、共鳴門檻與使用代價。</p>
+          <div class="card-bottom"><span class="card-tag">器物與共鳴</span><a class="card-read" href="pages/artifacts.html" aria-label="閱讀法寶圖鑑">展卷閱讀 ↗</a></div>
+        </article>
+      </div>
+      <p id="empty-state" class="empty-state" hidden></p><p id="storage-status" class="storage-status" role="status"></p>
+    </section>
+    <section id="about" class="section intro-grid" aria-labelledby="about-title">
+      <div><span class="section-label">A world in words / 關於本閣</span><h2 id="about-title">把想像，<br>寫成有跡可循的世界。</h2><p>玄天藏經閣收藏原創仙俠設定。每卷典籍沿用一致的術語與編纂格式，讓靈根、宗門與境界相互連結，也讓新的故事有清楚的起點。</p><p>所有人物、修行方法與奇物均屬虛構世界觀。</p></div>
+      <div id="reading-path"><span class="section-label">初入仙途 · 建議閱讀順序</span><ol class="reading-path"><li><span class="step">01</span><a href="pages/spirit-roots.html">先識靈根<small>從五行與變異靈根，理解修行適性。</small></a><span aria-hidden="true">↗</span></li><li><span class="step">02</span><a href="pages/sects.html">再訪山門<small>比較六宗傳承、考核與門規。</small></a><span aria-hidden="true">↗</span></li><li><span class="step">03</span><a href="pages/cultivation.html">循境問道<small>沿六個境界，掌握成長的門檻與代價。</small></a><span aria-hidden="true">↗</span></li><li><span class="step">04</span><a href="pages/artifacts.html">識器知用<small>比較法寶品階、門檻與使用代價。</small></a><span aria-hidden="true">↗</span></li></ol></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><span class="footer-brand">玄天藏經閣</span><p>此間山海，皆為原創虛構設定。願每一份好奇，都有典籍可循。</p></div>
+      <div class="footer-links"><a href="index.html#about">關於本閣</a><a href="AGENTS.md">編纂規則</a><a href="#top">回到頁首 ↑</a></div>
+    </div>
+  </footer>
+</body>
+</html>

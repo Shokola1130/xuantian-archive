@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}｜玄天藏經閣</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="theme-color" content="#0b1918">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/catalog.js" defer></script>
+  <script src="../assets/site.js" defer></script>
+</head>
+<body id="top" data-page="{{SLUG}}">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html" aria-label="玄天藏經閣首頁">
+        <span class="brand-seal" aria-hidden="true">玄</span>
+        <span><span class="brand-name">玄天藏經閣</span><span class="brand-caption">The Xuantian Archive</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">目錄 ☰</button>
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <a href="../index.html">藏經閣</a>
+        <a href="../pages/spirit-roots.html">靈根</a>
+        <a href="../pages/sects.html">宗門</a>
+        <a href="../pages/cultivation.html">境界</a>
+        <a href="../pages/artifacts.html">法寶</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <nav class="breadcrumb" aria-label="麵包屑"><a href="../index.html">藏經閣</a><span aria-hidden="true">/</span><span aria-current="page">{{TITLE}}</span></nav>
+    <article>
+      <header class="article-header"><div class="eyebrow">{{VOLUME}} · 玄天典籍</div><h1>{{TITLE}}</h1><p class="article-lead">{{LEAD}}</p><div class="article-meta"><span>原創虛構設定</span><span>更新 <time datetime="{{DATE}}">{{DATE}}</time></span><span>{{CATEGORY}}</span></div></header>
+      <div class="article-layout">
+        <nav class="article-toc" aria-label="本文目錄"><h2>卷內目錄</h2><ol>
+{{TOC}}
+        </ol></nav>
+        <div class="article-body">
+{{CONTENT}}
+          <section id="related"><h2>續讀典籍</h2><div class="related-links">
+{{RELATED}}
+          </div></section>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><span class="footer-brand">玄天藏經閣</span><p>此間山海，皆為原創虛構設定。願每一份好奇，都有典籍可循。</p></div>
+      <div class="footer-links"><a href="../index.html#about">關於本閣</a><a href="../AGENTS.md">編纂規則</a><a href="#top">回到頁首 ↑</a></div>
+    </div>
+  </footer>
+</body>
+</html>

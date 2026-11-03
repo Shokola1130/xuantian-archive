@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 520" role="img" aria-labelledby="title desc">
+  <title id="title">雲海中的玄天藏經閣</title><desc id="desc">原創線描山水，金色圓月映照青色群山與層疊樓閣。</desc>
+  <defs>
+    <linearGradient id="mountain" x2=".2" y2="1"><stop stop-color="#416c5a"/><stop offset="1" stop-color="#132b23"/></linearGradient>
+    <linearGradient id="mist" x2="0" y2="1"><stop stop-color="#224136" stop-opacity="0"/><stop offset=".65" stop-color="#0b1918" stop-opacity=".8"/><stop offset="1" stop-color="#0b1918"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#758963" stop-opacity=".16"/><stop offset="1" stop-color="#758963" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="323" cy="240" r="230" fill="url(#halo)"/>
+  <g stroke="#d8bb7b" fill="none"><circle cx="325" cy="220" r="162" opacity=".42"/><circle cx="325" cy="220" r="151" opacity=".12"/><path d="M325 44v20m-7-10h14M150 220h23m304 0h22M325 377v18" opacity=".55"/></g>
+  <g fill="#d8bb7b" opacity=".65"><circle cx="166" cy="121" r="1.5"/><circle cx="424" cy="81" r="1.4"/><circle cx="497" cy="157" r="1.5"/><circle cx="234" cy="72" r="1"/><circle cx="475" cy="287" r="1"/></g>
+  <path d="m48 336 48-81 18 20 52-103 26 47 22-20 42 72 31-31 38 86 32-62 23 15 38-116 25 46 24-31 65 120 27-26 32 72Z" fill="#1a332b" stroke="#3d5b49" stroke-width="1"/>
+  <path d="m74 378 68-102 22 17 51-132 32 58 18-7 35 75 36-20 33 87 44-97 24 27 33-48 59 127 34-31 40 71Z" fill="url(#mountain)" stroke="#6b8766" stroke-opacity=".65"/>
+  <g fill="none" stroke="#799875" stroke-width="1" opacity=".5"><path d="m214 164-5 92-25 40-5 54m40-133 13 65-21 40-10 48m50-143 2 45 32 54m123-66-12 67-32 54m52-105 6 61 32 44M143 280l5 49-27 39"/><path d="m190 271 14-7m-22 28 20-8m-9 34 12-4m18-34 10-5m158 56 17-8m-13-11 12-7m41 32 17 6"/></g>
+  <path d="m145 386 54-39 45 6 30-24 61 10 27-27 61 34 36 38-53 23-89-8-46 14-59-9Z" fill="#203e30" stroke="#91a17a" stroke-opacity=".65"/>
+  <path d="m204 396 23 36 22-9 17 33 23-22 17 28 28-46 35 16 29-31 21-2 22-24" fill="#152c23" stroke="#5d7b58" stroke-width="1"/>
+  <g fill="none" stroke="#739065" opacity=".6"><path d="m228 405 16 20m17-21 9 29m26-29 10 33m46-33 13 13"/><path d="M253 355q-46 19-30 37t57 3 32 14" stroke="#d8bb7b"/></g>
+  <g fill="#152c26" stroke="#c6b77c" stroke-width="1.4" stroke-linejoin="round">
+    <path d="M256 263h134v91H256z"/><path d="M272 206h102v60H272z"/><path d="M291 171h65v36h-65z"/>
+    <path d="M244 268q53-12 78-39 28 28 79 39-21 11-43 7h-71q-24 4-43-7Z" fill="#2d4e3b"/>
+    <path d="M261 210q41-9 62-31 20 22 62 31-16 8-32 5h-61q-18 4-31-5Z" fill="#2d4e3b"/>
+    <path d="M281 174q26-7 42-25 14 18 43 25-11 5-23 4h-42q-12 2-20-4Z" fill="#36583f"/>
+    <path d="M321 150v-15m-6 8h14"/>
+    <path d="M263 280v68m17-68v68m84-68v68m18-68v68M282 221v28m81-28v28M301 183v15m44-15v15"/>
+    <path d="M306 352v-42q17-18 34 0v42M299 222h48v28h-48zM305 283h36v12h-36z" fill="#253e30"/>
+    <path d="M251 354h145v7H251zM243 363h161v7H243zM288 374h70v7h-70zM280 384h87v7h-87z"/>
+  </g>
+  <g stroke="#a9d7c4" fill="none" stroke-width="1.5"><path d="M204 359v-60m0 22-15-19m16 9 18-20m-19 33 22-11"/><path d="M178 300q16-16 31-5m-7-11q17-11 32 1m-42 12q-5-14 11-22m8 33q17-8 29 0"/><path d="M425 359v-42m0 12-13-12m13 23 17-15m-39-6q11-15 24-5m-3-7q14-8 24 1"/></g>
+  <path d="M1 364q84-42 152-15t147 13q111-27 192-4t127-7v169H0Z" fill="url(#mist)"/>
+  <g stroke="#6b8e76" fill="none" opacity=".5"><path d="M38 385q62-12 105-2m-38 18q70-16 135-5m131-8q88-18 180 0M44 427q88-18 166-4m106 13q133-13 223 3M178 465q113-13 205-1"/><path d="m396 137 7-4 8 2m10 6 7-3 7 3" stroke="#d8bb7b" opacity=".8"/></g>
+  <g fill="#d8bb7b" opacity=".7"><circle cx="121" cy="383" r="2"/><circle cx="485" cy="406" r="2"/><circle cx="203" cy="447" r="1.5"/></g>
+</svg>
